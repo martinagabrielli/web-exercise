@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    body {
+        #container {
+            .header {
+                text-align: center;
+                #inner-header {
+                    #logo {
+                        font-size: 80px;
+                        a {
+                            text-decoration: none;
+                            color: #000000;
+                        }
+                    }
+                    nav {
+                        ul {
+                            display: flex;
+                            justify-content: space-around;
+                            list-style: none;
+                            margin-top: 20px;
+                            li {
+                                a {
+                                    text-decoration: none;
+                                    color: #000000;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #content {
+                #inner-content {
+                    #main {
+                        article {
+                            .entry-content {
+                                margin: 20px;
+                                p {
+                                    line-height: 30px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .article-header{
+                                display: none;
+                                .byline {
+                                    display: none;
+                                }
+                            }
+                            section.entry-content {
+                                line-height: 20px;
+                                text-align: justify;
+                            }
+                            .article-footer{
+                                display: none;
+                            }
+                        }
+                    }
+                    #sidebar1 {
+                        #recent-posts-3 {
+                            height: 500px;
+                            .widgettitle {
+                                display: none;
+                            }
+                            ul {
+                                height: 100%;
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                li {
+                                    list-style-type: none;
+                                    a {
+                                        text-decoration: none;
+                                        color: #000000;
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer {
+            background-color: bisque;
+            height: 120px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

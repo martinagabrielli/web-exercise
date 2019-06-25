@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* body #container .header {
+  text-align: center;
+}
+
+* body #container .header #inner-header #logo {
+  font-size: 80px;
+}
+
+* body #container .header #inner-header #logo a {
+  text-decoration: none;
+  color: #000000;
+}
+
+* body #container .header #inner-header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin-top: 20px;
+}
+
+* body #container .header #inner-header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+}
+
+* body #container #content #inner-content #main article .entry-content {
+  margin: 20px;
+}
+
+* body #container #content #inner-content #main article .entry-content p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+* body #container #content #inner-content #main article .article-header {
+  display: none;
+}
+
+* body #container #content #inner-content #main article .article-header .byline {
+  display: none;
+}
+
+* body #container #content #inner-content #main article section.entry-content {
+  line-height: 20px;
+  text-align: justify;
+}
+
+* body #container #content #inner-content #main article .article-footer {
+  display: none;
+}
+
+* body #container #content #inner-content #sidebar1 #recent-posts-3 {
+  height: 500px;
+}
+
+* body #container #content #inner-content #sidebar1 #recent-posts-3 .widgettitle {
+  display: none;
+}
+
+* body #container #content #inner-content #sidebar1 #recent-posts-3 ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body #container #content #inner-content #sidebar1 #recent-posts-3 ul li {
+  list-style-type: none;
+}
+
+* body #container #content #inner-content #sidebar1 #recent-posts-3 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+* body .footer {
+  background-color: bisque;
+  height: 120px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

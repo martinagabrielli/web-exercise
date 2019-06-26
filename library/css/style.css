@@ -9,14 +9,17 @@
 
 * body #container .header #inner-header #logo {
   font-size: 80px;
+  background: url(../images/adventure.png) center 70px no-repeat;
+  background-size: 700px;
+  height: 550px;
 }
 
-* body #container .header #inner-header #logo a {
+* body #container .header #inner-header a {
   text-decoration: none;
   color: #000000;
 }
 
-* body #container .header #inner-header nav ul {
+* body #container .header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +29,7 @@
   margin-top: 20px;
 }
 
-* body #container .header #inner-header nav ul li a {
+* body #container .header nav ul li a {
   text-decoration: none;
   color: #000000;
   font-size: 30px;

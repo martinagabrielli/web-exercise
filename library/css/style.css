@@ -49,6 +49,24 @@
   font-size: 30px;
 }
 
+* body #container #content #inner-content #main article#post-9 {
+  margin-top: 80px;
+}
+
+* body #container #content #inner-content #main article#post-9 .entry-content {
+  height: 1000px;
+}
+
+* body #container #content #inner-content #main article#post-9 .entry-content h1 {
+  font-size: 50px;
+}
+
+* body #container #content #inner-content #main article#post-9 .entry-content p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+
 * body #container #content #inner-content #main article#post-16 .entry-content {
   margin: 20px;
 }

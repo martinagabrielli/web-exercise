@@ -26,12 +26,19 @@
                         list-style: none;
                         margin-top: 20px;
                         li {
+                            &.current_page_item {
+                                font-weight: bolder;
+                                a {
+                                    color: red;
+                                }
+                            }
                             a {
                                 text-decoration: none;
                                 color: #000000;
                                 font-size: 30px;
                             }
                         }
+                        
                     }
                 }
             }

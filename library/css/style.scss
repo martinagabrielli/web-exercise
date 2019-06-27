@@ -46,6 +46,7 @@
                 #inner-content {
                     #main {
                         article {
+                            height: 1800px;
                             header.article-header {
                                 display: none;
                                 .byline {
@@ -53,9 +54,16 @@
                                 }
                             }
                             &#post-5 {
+                                display: flex;
+                                justify-content: center;
                                 .entry-content {
                                     h3 {
                                         font-size: 30px;
+                                        position: relative;
+                                       
+                                    }
+                                    .wp-image-59 {
+
                                     }
                                 }
                             }

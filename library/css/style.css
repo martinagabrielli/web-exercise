@@ -45,6 +45,10 @@
   font-size: 30px;
 }
 
+* body #container #content #inner-content #main article {
+  height: 1800px;
+}
+
 * body #container #content #inner-content #main article header.article-header {
   display: none;
 }
@@ -53,8 +57,18 @@
   display: none;
 }
 
+* body #container #content #inner-content #main article#post-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * body #container #content #inner-content #main article#post-5 .entry-content h3 {
   font-size: 30px;
+  position: relative;
 }
 
 * body #container #content #inner-content #main article#post-9 {

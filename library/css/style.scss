@@ -54,17 +54,37 @@
                                 }
                             }
                             &#post-5 {
-                                display: flex;
-                                justify-content: center;
+                            
                                 .entry-content {
-                                    h3 {
-                                        font-size: 30px;
-                                        position: relative;
-                                       
-                                    }
-                                    .wp-image-59 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .container {
+                                        width: 500px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                            h2 {
+                                                position: relative;
+                                                top: 150px;
+                                                #first-character {
 
-                                    }
+                                                }
+                                                #second-character {
+
+                                                }
+                                                #third-character {
+
+                                                }
+                                                #fourth-character {
+
+                                                }
+                                            }
+                                            img {
+                                                width: 200px;
+                                                height: 300px;
+                                            }
+                                    }        
                                 }
                             }
                             &#post-9 {
